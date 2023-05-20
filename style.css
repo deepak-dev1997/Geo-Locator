@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+#currtime-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+#current-info{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+#latlon{
+    display: flex;
+    justify-content: space-between;
+}
+
+#black{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#black input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#submit{
+    background-color: white;
+    color: black;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.searchresult1{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.searchresult2{
+    display: none;
+}
+.searchresult3{
+    color: red;
+  }

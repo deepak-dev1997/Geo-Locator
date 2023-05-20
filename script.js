@@ -28,8 +28,8 @@ const searchresult=document.getElementById("searchresult");
       y.innerHTML="";
       y.innerHTML=`<div>Name Of Time Zone : ${result.results[0].timezone.name}</div>
       <div id="latlon">
-          <div>Lat : ${lon}</div>
-          <div>Long : ${lat}</div>
+          <div>Lat : ${lat}</div>
+          <div>Long : ${lon}</div>
       </div>
       <div>Offset STD : ${result.results[0].timezone.offset_STD}</div>
       <div>Offset STD Seconds : ${result.results[0].timezone.offset_STD_seconds}</div>

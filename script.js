@@ -63,8 +63,8 @@ const searchresult=document.getElementById("searchresult");
         searchresult.innerHTML=`
         <div>Name Of Time Zone : ${arr.properties.timezone.name}</div>
             <div id="latlon">
-                <div>Lat : ${arr.geometry.coordinates[0]}</div>
-                <div>Long : ${arr.geometry.coordinates[1]}</div>
+                <div>Lat : ${arr.geometry.coordinates[1]}</div>
+                <div>Long : ${arr.geometry.coordinates[0]}</div>
             </div>
             <div>Offset STD : ${arr.properties.timezone.offset_STD}</div>
             <div>Offset STD Seconds : ${arr.properties.timezone.offset_STD_seconds}</div>
